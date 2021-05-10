@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Multiplication Table</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="4.Multiplication Table.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <form class="form" onsubmit="return multiplicationTable()">
+            <h3 style="text-align: center;">Multiplication Table</h3>
+            <div class="label-text">
+                <label class="label-text">Input</label>
+                <input id="data" class="custom-input" type="number" placeholder="Input Number">
+            </div>
+            <div>
+                <button class="btn" type="submit" id="button" >Submit</button>
+            </div>
+            <label class="label-text">Output</label>
+            <ul type="number" id="output"  ></ul>
+            
+        </form>
+    </div>
+<script src="4.Multiplication Table.js"></script>
+</body>
+
+</html>
